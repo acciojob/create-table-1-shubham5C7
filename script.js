@@ -11,5 +11,5 @@ function insert_Row() {
    td2.innerText = "New Cell2"
     tr.append(td1,td2);
      table.appendChild(tr);
-    table.insertBefore(tr, table.firstChild);
+    table.prepend(tr);
 }
