@@ -10,6 +10,6 @@ function insert_Row() {
    const td2 = document.createElement("td");
    td2.textContent = "New Cell2"
     tr.append(td1,td2);
-     table.appendChild(tr);
+   
     table.prepend(tr);
 }
