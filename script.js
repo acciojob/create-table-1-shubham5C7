@@ -1,5 +1,5 @@
 
-const table = document.getElementById("sampleTable");
+ const tbody = document.querySelector("#sampleTable tbody");
 
 function insert_Row() {
    
@@ -11,5 +11,5 @@ function insert_Row() {
    td2.textContent = "New Cell2"
     tr.append(td1,td2);
    
-    table.prepend(tr);
+  tbody.prepend(tr); 
 }
